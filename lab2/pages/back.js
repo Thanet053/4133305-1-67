@@ -1,5 +1,5 @@
-import { useState, useEffect} from 'react'
-
+import { useState, useEffect } from 'react'
+ 
 export default function Back() {
   const [data, setData] = useState(null)
   const [isLoading, setLoading] = useState(true)

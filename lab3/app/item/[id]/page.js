@@ -1,13 +1,14 @@
-import TestBtn from "./testBtn";
-import Plus from "@/app/plus";
+import TestBtn from "./testBtn"
+import Plus from "@/lib/plus"
 
-export default function item({ params }) {
+export default function Item({params}){
     const added = Plus(2,7)
+
     return (
-        <div> 
-           <p>item :{params.id}</p> 
-           <p>{added}</p>
-           <TestBtn/>
+        <div>
+            <p>Item : {params.id}</p>
+            <p>{added}</p>
+            <TestBtn/>
         </div>
-    );
+    )
 }

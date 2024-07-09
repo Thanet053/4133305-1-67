@@ -1,5 +1,5 @@
-export default function TestBtn() {
+export default function TestBtn(){
     return (
-        <button>Test</button>
+    <button>Test</button>
     )
 }

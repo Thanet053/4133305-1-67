@@ -1,7 +1,5 @@
-import Link from "next/link";
-
 export default function test() {
-  return(
+  return (
     <div>
       <p>test</p>
       <a href="/">Home</a>
